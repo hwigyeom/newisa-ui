@@ -1,19 +1,21 @@
 {
-  "name": "ntils",
+  "name": "newisa-ui",
   "version": "0.0.1",
-  "description": "",
-  "type": "module",
-  "main": "index.js",
+  "description": "newisa ui project",
   "scripts": {
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
+    "test": "pnpm -r run test",
     "build": "pnpm -r run build",
     "storybook": "pnpm -r run storybook",
     "storybook:build": "pnpm -r run storybook:build",
     "prepare": "husky"
   },
-  "keywords": [],
+  "keywords": [
+    "newisa",
+    "ui",
+    "web"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -44,10 +46,12 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "*.js": "eslint --cache --fix"
+      "pnpm -r run lint"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newisa/newisa-ui.git"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [

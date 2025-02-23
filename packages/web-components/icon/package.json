@@ -1,5 +1,5 @@
 {
-  "name": "@ntils-lab/wc-icon",
+  "name": "@newisa/nwc-icon",
   "version": "0.0.1",
   "description": "ntils web components icons",
   "type": "module",
@@ -9,16 +9,18 @@
   "scripts": {
     "test": "vitest",
     "lint": "eslint .",
+    "format": "prettier . --write",
     "build": "pnpm run cleanup && tsc --listEmittedFiles && echo '✅ Build completed!'",
     "cleanup": "node ../../../scripts/cleanup.js",
     "prepublishOnly": "pnpm run build && pnpm run test",
     "publish:npm": "pnpm publish --config publishConfig:npm"
   },
   "keywords": [
-    "ntils",
-    "lit-element",
-    "web components",
-    "icon components"
+    "newisa",
+    "ui",
+    "lit",
+    "web",
+    "icon"
   ],
   "packageManager": "pnpm@10.4.1",
   "dependencies": {
@@ -38,7 +40,7 @@
   "author": "hwigyeom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ntils-lab/ntils"
+    "url": "https://github.com/newisa/newisa-ui"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -48,8 +50,8 @@
     "access": "public"
   },
   "license": "MIT",
-  "homepage": "https://github.com/ntils-lab/ntils",
+  "homepage": "https://github.com/newisa/newisa-ui",
   "bugs": {
-    "url": "https://github.com/ntils-lab/ntils/issues"
+    "url": "https://github.com/newisa/newisa-ui/issues"
   }
 }
