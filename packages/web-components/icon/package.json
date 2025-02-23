@@ -1,5 +1,5 @@
 {
-  "name": "@ntils-wc/icon",
+  "name": "@ntils-lab/wc-icon",
   "version": "0.0.1",
   "description": "ntils web components icons",
   "type": "module",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "build": "pnpm run cleanup && tsc --listEmittedFiles && echo '✅ Build completed!'",
     "cleanup": "node ../../../scripts/cleanup.js",
-    "prepublishOnly": "pnpm run build && pnpm test",
+    "prepublishOnly": "pnpm run build && pnpm run test",
     "publish:npm": "pnpm publish --config publishConfig:npm"
   },
   "keywords": [
@@ -20,7 +20,6 @@
     "web components",
     "icon components"
   ],
-  "license": "MIT",
   "packageManager": "pnpm@10.4.1",
   "dependencies": {
     "lit": "^3.2.1"
@@ -39,7 +38,7 @@
   "author": "hwigyeom",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hwigyeom/ntils.git"
+    "url": "https://github.com/ntils-lab/ntils"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -47,5 +46,10 @@
   "publishConfig:npm": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ntils-lab/ntils",
+  "bugs": {
+    "url": "https://github.com/ntils-lab/ntils/issues"
   }
 }
