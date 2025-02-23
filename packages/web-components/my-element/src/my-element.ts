@@ -1,7 +1,7 @@
 import { html, LitElement } from 'lit';
 import { customElement } from 'lit/decorators.js';
 
-import '@ntils-wc/icon/add';
+import '@newisa/nwc-icon/add';
 
 @customElement('nwc-my-element')
 export class MyElement extends LitElement {

@@ -1,14 +1,14 @@
 {
-  "name": "@ntils-wc/storybook-wc",
+  "name": "@newisa/storybook-wc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "newisa-ui web components storybook",
+  "private": true,
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build"
   },
   "keywords": [],
-  "author": "",
+  "author": "hwigyeom",
   "license": "ISC",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {

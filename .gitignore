@@ -20,6 +20,7 @@ build
 storybook-static
 *.local
 *storybook.log
+.eslintcache
 
 # Build results
 packages/web-components/**/*.d.ts
