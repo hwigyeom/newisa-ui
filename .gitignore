@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.idea
+.vscode
+!.vscode/extensions.json
+.DS_Store
+
+node_modules
+dist
+coverage
+build
+storybook-static
+*.local
+*storybook.log
+
+# Build results
+packages/web-components/**/*.d.ts
+packages/web-components/**/*.d.ts.map
+packages/web-components/**/*.js
+packages/web-components/**/*.js.map
+
+# Unnecessary files
+packages/web-components/storybook-wc/stories
